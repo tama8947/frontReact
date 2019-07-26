@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+	ServerName Rick
+	DocumentRoot "c:/wamp/www/buildrick"
+	<Directory  "c:/wamp/www/buildrick/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+</VirtualHost>
